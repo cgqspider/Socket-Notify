@@ -20,7 +20,7 @@
     </form>
 </body>
 <script>
-var socket = io("http://localhost:3000");
+var socket = io("http://sock11.herokuapp.com/");
  
  function sendMessage() {
      socket.emit("messageSent", {
